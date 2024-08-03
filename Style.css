@@ -1,0 +1,294 @@
+/* Resetting body styles and setting up a flexbox container */
+body {
+  padding: 0;
+  margin: 0;
+  background-color: rgba(0, 0, 0, 0.069);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Main container styles */
+.container {
+  position: relative;
+  width: 700px;
+  background-color: white;
+  height: auto;
+  border-radius: 15px 15px 70px 15px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Content wrapper to manage internal layout */
+.content {
+  width: 85%;
+  margin: auto;
+}
+
+/* Styles for the input group */
+.input-group {
+  display: flex;
+  gap: 2em;
+  margin-bottom: 20px;
+}
+
+/* Individual form group styles */
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1em;
+}
+
+/* Label styles */
+.form-group label {
+  font-weight: 600;
+  margin-bottom: 0.5em;
+  color: hsl(0, 1%, 44%);
+}
+
+/* Input field styles */
+.form-group input {
+  width: 120px;
+  height: 50px;
+  border: 0.5px solid hsl(0, 0%, 86%);
+  border-radius: 5px;
+  font-size: 32px;
+  padding: 5px;
+  font-weight: 600;
+  text-align: center;
+}
+
+/* Remove spin buttons from number inputs */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Focus state for input fields */
+.form-group input:focus {
+  border: 2px solid hsl(259, 100%, 65%);
+  outline: none;
+}
+
+/* The styling for the button */
+.bttn {
+  position: absolute;
+  top: 110px;
+  right: 7%;
+  width: 80px;
+  height: 80px;
+  background-color: hsl(259, 100%, 65%);
+  color: white;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.bttn:hover {
+  background-color: hsl(259, 100%, 55%);
+  transform: scale(1.1);
+}
+
+svg {
+  width: 70px;
+  height: 70px;
+  font-style: italic;
+}
+
+/* Horizontal rule styling */
+hr {
+  border: none;
+  border-top: 1px solid hsl(0, 0%, 86%);
+  margin: 20px 0;
+}
+
+/* Styles for the output group */
+.output-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+/* Styles for individual output items */
+.output {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 32px;
+}
+
+/* Styling for all span elements in output items */
+.output span {
+  font-size: 70px;
+  font-weight: 900;
+}
+
+/* Styling for the first span element (numbers) in output items */
+.output span:first-child {
+  color: hsl(259, 100%, 65%);
+}
+
+
+
+
+
+
+
+/*--------------------------*/
+/* Resetting body styles and setting up a flexbox container */
+body {
+  padding: 0;
+  margin: 0;
+  background-color: rgba(0, 0, 0, 0.069);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Main container styles */
+.container {
+  position: relative;
+  width: 700px;
+  background-color: white;
+  height: auto;
+  border-radius: 15px 15px 70px 15px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Content wrapper to manage internal layout */
+.content {
+  width: 85%;
+  margin: auto;
+}
+
+/* Styles for the input group */
+.input-group {
+  display: flex;
+  gap: 2em;
+  margin-bottom: 20px;
+}
+
+/* Individual form group styles */
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1em;
+}
+
+/* Label styles */
+.form-group label {
+  font-weight: 600;
+  margin-bottom: 0.5em;
+  color: hsl(0, 1%, 44%);
+}
+
+/* Input field styles */
+.form-group input {
+  width: 120px;
+  height: 50px;
+  border: 0.5px solid hsl(0, 0%, 86%);
+  border-radius: 5px;
+  font-size: 32px;
+  padding: 5px;
+  font-weight: 600;
+  text-align: center;
+}
+
+/* Remove spin buttons from number inputs */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Focus state for input fields */
+.form-group input:focus {
+  border: 2px solid hsl(259, 100%, 65%);
+  outline: none;
+}
+
+/* Error message styling */
+.error-message {
+  color: red;
+  width: 120px;
+  font-size: 11px;
+  margin-top: 5px;
+  display: none;
+  text-align: center;
+}
+
+/* The styling for the button */
+.bttn {
+  position: absolute;
+  top: 110px;
+  right: 7%;
+  width: 80px;
+  height: 80px;
+  background-color: hsl(259, 100%, 65%);
+  color: white;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.bttn:hover {
+  background-color: hsl(259, 100%, 55%);
+  transform: scale(1.1);
+}
+
+svg {
+  width: 70px;
+  height: 70px;
+  font-style: italic;
+}
+
+/* Horizontal rule styling */
+hr {
+  border: none;
+  border-top: 1px solid hsl(0, 0%, 86%);
+  margin: 20px 0;
+}
+
+/* Styles for the output group */
+.output-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+/* Styles for individual output items */
+.output {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 32px;
+}
+
+/* Styling for all span elements in output items */
+.output span {
+  font-size: 70px;
+  font-weight: 900;
+}
+
+/* Styling for the first span element (numbers) in output items */
+.output span:first-child {
+  color: hsl(259, 100%, 65%);
+}
